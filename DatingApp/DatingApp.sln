@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp", "DatingApp\DatingApp.csproj", "{282839D7-6888-48DB-8C55-64FFF3AFBAD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingApp", "DatingApp\DatingApp.csproj", "{282839D7-6888-48DB-8C55-64FFF3AFBAD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
