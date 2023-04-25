@@ -9,49 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DatingApp
 build_property.RootNamespace = DatingApp
-build_property.ProjectDir = C:\Users\Jonas\source\repos\DatingApp\DatingApp\
+build_property.ProjectDir = C:\Users\Jonas\Source\Repos\jona339e\DatingApp\DatingApp\DatingApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jonas\source\repos\DatingApp\DatingApp
+build_property.MSBuildProjectDirectory = C:\Users\Jonas\Source\Repos\jona339e\DatingApp\DatingApp\DatingApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/App.razor]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/LikeCmp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcTGlrZUNtcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/LoginCmp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcTG9naW5DbXAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Pages/Index.razor]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/MessageCmp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcTWVzc2FnZUNtcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/ProfileCmp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcUHJvZmlsZUNtcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Pages/CreateAccount.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWNjb3VudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Shared/SurveyPrompt.razor]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Pages/Message.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Pages/UserProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/_Imports.razor]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Shared/MainLayout.razor]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-x4pcrtdp99
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Shared/NavMenu.razor]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-at3l3tmf3u
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Pages/Error.cshtml]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/DatingApp/DatingApp/Pages/_Host.cshtml]
+[C:/Users/Jonas/Source/Repos/jona339e/DatingApp/DatingApp/DatingApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
