@@ -1,0 +1,70 @@
+﻿
+
+
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+
+                        <div class="mb-md-5 mt-md-4 pb-5">
+
+                            <h2 class="fw-bold mb-2 text-uppercase">Create User Details</h2>
+                            <p class="text-white-50 mb-5">Please fill in the required information to create your account!</p>
+
+
+                            <EditForm Model="@userProfile" OnValidSubmit="UpdateUserProfile">
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label">First Name</label>
+                                    <input type="text" class="form-control form-control-lg" @bind-value="@userProfile.FirstName" required />
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label">Last Name</label>
+                                    <input type="text" class="form-control form-control-lg" @bind-value="userProfile.LastName" required />
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label">Birthdate</label>
+                                    <input type="date" class="form-control form-control-lg" @bind-value="userProfile.Birthdate" required />
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label">Height</label>
+                                    <input type="number" class="form-control form-control-lg" @bind-value="userProfile.Height" required />
+                                </div>
+
+                                @*make list of possible genders*@
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label">Gender</label>
+                                    <select class="form-select form-white mb-4" @bind-value="userProfile.GenderID" @bind-value:event="oninput" required>
+                                        <option value="1">Male</option>
+                                        <option value="2">Female</option>
+                                        <option value="3">Other</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label">Zip Code</label>
+                                    <input type="number" class="form-control form-control-lg" @bind-value="userProfile.CityID" required />
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label">About Me</label>
+                                    <InputTextArea @bind-Value="userProfile.About" class="form-control form-control-lg" rquired />
+
+                                </div>
+                                <button class="btn btn-outline-light btn-lg px-5" type="submit">Submit User Details</button>
+
+                            </EditForm>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

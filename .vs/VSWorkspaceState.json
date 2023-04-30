@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DatingApp",
+    "\\DatingApp\\DatingApp",
+    "\\DatingApp\\DatingApp\\Componenets",
+    "\\DatingApp\\DatingApp\\Pages",
+    "\\DatingApp\\DatingApp\\Services"
   ],
+  "SelectedNode": "\\DatingApp\\DatingApp\\Pages\\Profile.razor",
   "PreviewInSolutionExplorer": false
 }

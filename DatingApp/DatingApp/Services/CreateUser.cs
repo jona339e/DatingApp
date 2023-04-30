@@ -7,11 +7,17 @@ namespace DatingApp.Services
 {
     public class CreateUser : ICreateUser
     {
-        [Inject]
-        IConfiguration configuration { get; set; }
-        public User AddUser(User user)
+        string conn;
+
+        private readonly IConfiguration configuration;
+        public CreateUser(IConfiguration configuration)
         {
-            string conn = configuration.GetConnectionString("DefaultConnection");
+            conn = configuration.GetConnectionString("DefaultConnection");
+
+        }
+        public void AddUser(User user)
+        {
+            
 
             try
             {
@@ -23,7 +29,7 @@ namespace DatingApp.Services
                     cmd.Parameters.AddWithValue("@Password", user.Password);
                     cmd.Parameters.AddWithValue("@salt", user.Salt);
                     cmd.Parameters.AddWithValue("@Email", user.Email);
-                    cmd.Parameters.AddWithValue("@CreateDate", user.CreateDate);
+                    cmd.Parameters.AddWithValue("@CreatedDate", user.CreateDate);
 
                     con.Open();
                     cmd.ExecuteNonQuery();
@@ -34,8 +40,7 @@ namespace DatingApp.Services
                 throw ex;
             }
 
-
-            throw new System.NotImplementedException();
+            // maybe fire event here to notify user was created
         }
     }
 }

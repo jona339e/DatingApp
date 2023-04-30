@@ -1,13 +1,18 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
-
-<h1>Hello, world!</h1>
-
+    <PageTitle>Index</PageTitle>
+@if (IsLoggedIn.LoggedIn)
+{
+    <CreateDetails></CreateDetails>
+}else{
+<LoginCmp></LoginCmp>
+}
 @*login page*@
 @*+redirect to create account page*@
 @*if user is logged in show profile of user
 else show login page*@
 
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code{
+
+}

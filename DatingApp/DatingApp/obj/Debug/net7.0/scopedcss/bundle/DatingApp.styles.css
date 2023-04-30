@@ -1,3 +1,10 @@
+/* _content/DatingApp/Componenets/LoginCmp.razor.rz.scp.css */
+/* _content/DatingApp/Componenets/OwnProfileCmp.razor.rz.scp.css */
+
+/* _content/DatingApp/Pages/CreateAccount.razor.rz.scp.css */
+button[b-3nwbrdoz1p]{
+    margin: 0.5rem;
+}
 /* _content/DatingApp/Shared/MainLayout.razor.rz.scp.css */
 .page[b-x4pcrtdp99] {
     position: relative;
@@ -7,6 +14,12 @@
 
 main[b-x4pcrtdp99] {
     flex: 1;
+    /* fallback for old browsers */
+    background: #6a11cb;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
 }
 
 .sidebar[b-x4pcrtdp99] {
@@ -64,10 +77,10 @@ main[b-x4pcrtdp99] {
         z-index: 1;
     }
 
-    .top-row[b-x4pcrtdp99], article[b-x4pcrtdp99] {
+/*    .top-row, article {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
-    }
+    }*/
 }
 /* _content/DatingApp/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-at3l3tmf3u] {
