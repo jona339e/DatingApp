@@ -4,7 +4,7 @@ namespace DatingApp.Interfaces
 {
     public interface ICreateUser
     {
-        User AddUser(User user);
+        void AddUser(User user);
 
     }
 }

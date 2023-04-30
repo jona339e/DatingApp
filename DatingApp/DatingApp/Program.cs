@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using DatingApp.Interfaces;
+using DatingApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,8 +18,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
+
 
 app.UseRouting();
 
@@ -32,10 +34,15 @@ static void ConfigureServices(IServiceCollection services)
     services.AddServerSideBlazor();
 
 
-
     // add custom services
     // change contactserivce to contactservicetesting to test the testing service
-    //services.AddSingleton<IContactService, ContactService>();
+
+    // use scoped for services
+    services.AddScoped<ICreateUser, CreateUser>();
+    services.AddScoped<IUserExist, UserExist>();
+    services.AddScoped<IUserLogin, UserLogin>();
+    services.AddScoped<IHashing, Hashing>();
+    services.AddScoped<IGetId, GetId>();
 
 
 }

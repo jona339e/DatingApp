@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DatingApp",
+    "\\DatingApp\\DatingApp",
+    "\\DatingApp\\DatingApp\\Componenets",
+    "\\DatingApp\\DatingApp\\Pages",
+    "\\DatingApp\\DatingApp\\Services"
   ],
   "PreviewInSolutionExplorer": false
 }
