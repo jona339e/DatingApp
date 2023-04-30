@@ -37,12 +37,16 @@ static void ConfigureServices(IServiceCollection services)
     // add custom services
     // change contactserivce to contactservicetesting to test the testing service
 
-    // use scoped for services
-    services.AddScoped<ICreateUser, CreateUser>();
-    services.AddScoped<IUserExist, UserExist>();
-    services.AddScoped<IUserLogin, UserLogin>();
-    services.AddScoped<IHashing, Hashing>();
-    services.AddScoped<IGetId, GetId>();
+    
+    services.AddTransient<ICreateUser, CreateUser>();
+    services.AddTransient<IUserExist, UserExist>();
+    services.AddTransient<IUserLogin, UserLogin>();
+    services.AddTransient<IHashing, Hashing>();
+    services.AddTransient<IGetId, GetId>();
+    services.AddTransient<IUpdateProfile, UpdateProfile>();
+    services.AddTransient<IGetUserProfile, GetUserProfile>();
+    services.AddTransient<IGetCity, GetCity>();
+    services.AddTransient<IGetGender, GetGender>();
 
 
 }

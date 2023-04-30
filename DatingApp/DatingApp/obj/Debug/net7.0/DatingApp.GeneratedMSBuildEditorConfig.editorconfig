@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DatingApp
 build_property.RootNamespace = DatingApp
-build_property.ProjectDir = C:\Users\Jonas\Source\Repos\jona339e\DatingApp\DatingApp\DatingApp\
+build_property.ProjectDir = C:\Users\Jonas\source\repos\jona339e\DatingApp\DatingApp\DatingApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jonas\Source\Repos\jona339e\DatingApp\DatingApp\DatingApp
+build_property.MSBuildProjectDirectory = C:\Users\Jonas\source\repos\jona339e\DatingApp\DatingApp\DatingApp
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/App.razor]

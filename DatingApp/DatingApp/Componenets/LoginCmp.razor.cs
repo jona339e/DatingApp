@@ -26,7 +26,7 @@ namespace DatingApp.Componenets
             {
                 IsLoggedIn.LoggedIn = true;
                 IsLoggedIn.Id = user.Id;
-                navigationManager.NavigateTo($"/userprofile/{IsLoggedIn.Id}");
+                navigationManager.NavigateTo($"/userprofile");
             }
 
         }
