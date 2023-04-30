@@ -15,12 +15,12 @@
                             <EditForm Model="@user" OnValidSubmit="Login">
                             <div class="form-outline form-white mb-4">
                                 <label class="form-label" >Username</label>
-                                <input type="text" class="form-control form-control-lg" @bind-value="user.Username"/>
+                                    <input type="text" class="form-control form-control-lg" @bind-value="user.Username" required />
                             </div>
 
                             <div class="form-outline form-white mb-4">
                                 <label class="form-label">Password</label>
-                                <input type="password" class="form-control form-control-lg" @bind-value="user.Password"/>
+                                    <input type="password" class="form-control form-control-lg" @bind-value="user.Password" required />
                             </div>
 
                             <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>

@@ -17,10 +17,6 @@ namespace DatingApp.Componenets
         [Inject]
         public IGetId getId { get; set; }
 
-        public LoginCmp()
-        {
-            
-        }
 
         User user = new User();
 

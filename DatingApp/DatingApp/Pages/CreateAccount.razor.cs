@@ -10,12 +10,6 @@ namespace DatingApp.Pages
 {
     public partial class CreateAccount
     {
-
-        public CreateAccount()
-        {
-            
-        }
-
         // remember to inject the interface not the class :facepalm:
 
         [Inject]

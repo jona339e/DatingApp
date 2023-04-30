@@ -1,10 +1,18 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
-
+    <PageTitle>Index</PageTitle>
+@if (IsLoggedIn.LoggedIn)
+{
+    <CreateDetails></CreateDetails>
+}else{
+<LoginCmp></LoginCmp>
+}
 @*login page*@
 @*+redirect to create account page*@
 @*if user is logged in show profile of user
 else show login page*@
 
-<LoginCmp></LoginCmp>
+
+@code{
+
+}

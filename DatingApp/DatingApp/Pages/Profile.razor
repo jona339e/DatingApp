@@ -1,9 +1,11 @@
-﻿@page "/profile/{Id}"
+﻿@page "/profile/{id:int}"
 
 <h3>Profile</h3>
 
+@*profile of other users*@
+
 @code {
     [Parameter]
-    public int Id { get; set; }
+    public int id { get; set; }
 
 }

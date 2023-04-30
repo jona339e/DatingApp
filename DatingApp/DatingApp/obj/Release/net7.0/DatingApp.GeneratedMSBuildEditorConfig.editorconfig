@@ -20,16 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/CreateDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcQ3JlYXRlRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/LikeCmp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcTGlrZUNtcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/MessageCmp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcTWVzc2FnZUNtcC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/OwnProfileCmp.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcT3duUHJvZmlsZUNtcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/ProfileCmp.razor]
@@ -63,6 +63,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/LoginCmp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcTG9naW5DbXAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-a33398w4xc
+
+[C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Componenets/OwnProfileCmp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcT3duUHJvZmlsZUNtcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-257v6omw1o
 
 [C:/Users/Jonas/source/repos/jona339e/DatingApp/DatingApp/DatingApp/Pages/CreateAccount.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWNjb3VudC5yYXpvcg==
