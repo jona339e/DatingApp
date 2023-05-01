@@ -1,4 +1,5 @@
 USE Dating
+GO
 CREATE PROCEDURE usp_InsertUser
 @UserName nvarchar(255),
 @Password nvarchar(255),
@@ -29,7 +30,6 @@ CREATE PROCEDURE usp_GetPassword
 @id int
 AS
 SELECT Psw FROM [User] Where [User].id = @id;
-END
 
 GO 
 CREATE PROCEDURE usp_GetSalt

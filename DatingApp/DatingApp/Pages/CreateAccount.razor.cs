@@ -57,9 +57,9 @@ namespace DatingApp.Pages
             // higher values gives safer encryption but takes longer to encrypt
 
 
-            byte[] hash = hashing.HashPassword(salt, user.Password);
+            string hash = hashing.HashPassword(salt, user.Password);
 
-            user.Password = Encoding.UTF8.GetString(hash);
+            user.Password = hash;
             user.Salt = Encoding.UTF8.GetString(salt);
 
             CreateUser.AddUser(user);

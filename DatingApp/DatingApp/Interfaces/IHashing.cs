@@ -2,6 +2,6 @@
 {
     public interface IHashing
     {
-        public byte[] HashPassword(byte[] salt, string password);
+        public string HashPassword(byte[] salt, string password);
     }
 }
