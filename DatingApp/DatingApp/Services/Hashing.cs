@@ -10,7 +10,7 @@ namespace DatingApp.Services
         public string HashPassword(byte[] salt, string password)
         {
             string hashedPassword = string.Empty;
-            Argon2id argon2 = new Argon2id(Encoding.UTF8.GetBytes(password));
+            Argon2id argon2 = new Argon2id(Convert.FromBase64String(password));
             argon2.Salt = salt;
             argon2.DegreeOfParallelism = 4;
             argon2.Iterations = 2;
@@ -19,7 +19,7 @@ namespace DatingApp.Services
 
             byte[] hash = argon2.GetBytes(32);
 
-            hashedPassword = Encoding.UTF8.GetString(hash);
+            hashedPassword = Convert.ToBase64String(hash);
 
 
             return hashedPassword;

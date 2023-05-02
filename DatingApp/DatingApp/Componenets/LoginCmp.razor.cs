@@ -45,10 +45,10 @@ namespace DatingApp.Componenets
             {
                 user.Id = getId.GetUserId(user.Username);
             }
-            //if (!LoginMatch())
-            //{
-            //    return false;
-            //}
+            if (!LoginMatch())
+            {
+                return false;
+            }
 
 
 
@@ -59,11 +59,11 @@ namespace DatingApp.Componenets
         {
             // doesn't work
             string storedPassword = userLogin.GetPassword(user.Id);
-            byte[] salt = Encoding.UTF8.GetBytes(userLogin.GetSalt(user.Id));
+            byte[] salt = Convert.FromBase64String(userLogin.GetSalt(user.Id));
             string hashedPassword = hashing.HashPassword(salt, user.Password);
 
-            if (storedPassword != hashedPassword) return false;
-            else return true;
+            if (storedPassword == hashedPassword) return true;
+            else return false;
 
             // the hashing returns 2 different hashes even though the password is the same
             //"�HP\u001c��6\\�#2u�D�$���\u0016�����\\�x�w�\u001b"

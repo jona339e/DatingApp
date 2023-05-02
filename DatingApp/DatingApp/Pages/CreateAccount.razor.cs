@@ -60,7 +60,7 @@ namespace DatingApp.Pages
             string hash = hashing.HashPassword(salt, user.Password);
 
             user.Password = hash;
-            user.Salt = Encoding.UTF8.GetString(salt);
+            user.Salt = Convert.ToBase64String(salt);
 
             CreateUser.AddUser(user);
 
