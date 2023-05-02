@@ -7,8 +7,9 @@ namespace DatingApp.Services
 {
     public class Hashing : IHashing
     {
-        public byte[] HashPassword(byte[] salt, string password)
+        public string HashPassword(byte[] salt, string password)
         {
+            string hashedPassword = string.Empty;
             Argon2id argon2 = new Argon2id(Encoding.UTF8.GetBytes(password));
             argon2.Salt = salt;
             argon2.DegreeOfParallelism = 4;
@@ -18,7 +19,10 @@ namespace DatingApp.Services
 
             byte[] hash = argon2.GetBytes(32);
 
-            return hash;
+            hashedPassword = Encoding.UTF8.GetString(hash);
+
+
+            return hashedPassword;
         }
 
     }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonas\\Source\\Repos\\jona339e\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj": {}
+    "C:\\Users\\Tec\\Source\\Repos\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonas\\Source\\Repos\\jona339e\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj": {
+    "C:\\Users\\Tec\\Source\\Repos\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonas\\Source\\Repos\\jona339e\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj",
+        "projectUniqueName": "C:\\Users\\Tec\\Source\\Repos\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj",
         "projectName": "DatingApp",
-        "projectPath": "C:\\Users\\Jonas\\Source\\Repos\\jona339e\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonas\\Source\\Repos\\jona339e\\DatingApp\\DatingApp\\DatingApp\\obj\\",
+        "projectPath": "C:\\Users\\Tec\\Source\\Repos\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj",
+        "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tec\\Source\\Repos\\DatingApp\\DatingApp\\DatingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -52,6 +52,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
+            },
+            "PBKDF2.NET": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -73,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
